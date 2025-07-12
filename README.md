@@ -127,24 +127,30 @@ ID,class
 ```
 ...
 🧠 Key Takeaways
+```
 •	Built an end-to-end classification pipeline under modeling constraints
 •	Applied denoising, imputation, and feature engineering
 •	Understood the real-world challenges of working with satellite imagery
 •	Learned to build models that generalize across noisy and clean datasets
+```
 
 📂 Repository Contents
+```
 File	Description
 NDVI(vaibhavi).ipynb	  Google Colab-compatible notebook with full pipeline
 vaibhavisubmission.csv	  Final prediction file for Kaggle submission
 README.md   	This file — complete project documentation
+```
 
 🧑‍💻 Author
+```
 Vaibhavi Singh Rathaur
 Final Year B.Tech – Computer Science & Business Systems (CSBS)
 Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), India
 💻 Interests: Web Development, Data Science
 🔗 https://www.linkedin.com/in/vaibhavisingh999894a/
 🐙 https://github.com/vaibhaviisingh
+```
 
 🚀 How to Run
 1. Clone this repository:
