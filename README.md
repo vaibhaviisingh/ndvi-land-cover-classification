@@ -125,14 +125,14 @@ ID,class
 3,grass
 4,impervious
 ```
-...
+
 🧠 Key Takeaways
-```
+
 •	Built an end-to-end classification pipeline under modeling constraints
 •	Applied denoising, imputation, and feature engineering
 •	Understood the real-world challenges of working with satellite imagery
 •	Learned to build models that generalize across noisy and clean datasets
-```
+
 
 📂 Repository Contents
 ```
