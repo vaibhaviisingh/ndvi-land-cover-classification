@@ -1,3 +1,4 @@
+
 # 🌿 NDVI-Based Land Cover Classification using Logistic Regression  
 *A Machine Learning Project for the Summer Analytics 2025 Hackathon*
 
@@ -52,13 +53,15 @@ Each row in the dataset represents a geographic point and contains:
 - `class`: Ground truth land cover label (only in training data)
 
 Possible land cover classes:
-•	water
-•	impervious
-•	farm
-•	forest
-•	grass
-•	orchard
 
+```
+- water
+- impervious
+- farm
+- forest
+- grass
+- orchard
+```
 
 > ⚠️ **Note**: `hacktrain.csv` and `hacktest.csv` are not uploaded here due to competition restrictions.  
 > 📌 Access the data from the [official hackathon page](https://www.kaggle.com/competitions/summer-analytics-mid-hackathon/overview).
@@ -124,44 +127,63 @@ ID,class
 2,water
 3,grass
 4,impervious
+...
 ```
 
-🧠 Key Takeaways
+---
 
-•	Built an end-to-end classification pipeline under modeling constraints
-•	Applied denoising, imputation, and feature engineering
-•	Understood the real-world challenges of working with satellite imagery
-•	Learned to build models that generalize across noisy and clean datasets
+## 🧠 Key Takeaways
 
+- Built an end-to-end classification pipeline under modeling constraints
+- Applied **denoising**, **imputation**, and **feature engineering**
+- Understood the real-world challenges of working with **satellite imagery**
+- Learned to build models that generalize across noisy and clean datasets
 
-📂 Repository Contents
-```
-File	Description
-NDVI(vaibhavi).ipynb	  Google Colab-compatible notebook with full pipeline
-vaibhavisubmission.csv	  Final prediction file for Kaggle submission
-README.md   	This file — complete project documentation
-```
+---
 
-🧑‍💻 Author
-```
-Vaibhavi Singh Rathaur
-Final Year B.Tech – Computer Science & Business Systems (CSBS)
-Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), India
-💻 Interests: Web Development, Data Science
-🔗 https://www.linkedin.com/in/vaibhavisingh999894a/
-🐙 https://github.com/vaibhaviisingh
-```
+## 📂 Repository Contents
 
-🚀 How to Run
+| File                   | Description |
+|------------------------|-------------|
+| `notebook.ipynb`       | Google Colab-compatible notebook with full ML pipeline |
+| `vaibhavisubmission.csv` | Final submission file (Kaggle format) |
+| `README.md`            | Full project documentation (this file) |
+
+---
+
+## 🧑‍💻 Author
+
+**Vaibhavi Singh Rathaur**  
+Final Year B.Tech – Computer Science & Business Systems (CSBS)  
+Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), India  
+
+- 💻 **Interests**: Web Development, Data Science, Machine Learning  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/vaibhavisingh999894a/) 
+- 🐙 [GitHub](https://github.com/vaibhaviisingh) 
+
+---
+
+## 🚀 How to Run
+
 1. Clone this repository:
-git clone https://github.com/yourusername/ndvi-land-cover-classification.git
-2. Open notebook.ipynb in Google Colab
-3. Upload hacktrain.csv and hacktest.csv from the competition
-4. Run all cells to generate vaibhavisubmission.csv
+   ```bash
+   git clone https://github.com/yourusername/ndvi-land-cover-classification.git
+   ```
 
-🤝 Acknowledgments
-•	Consulting & Analytics Club, IIT Guwahati – for organizing the hackathon and providing real-world satellite data
-•	GeeksforGeeks (GFG) – for sponsoring and mentoring the competition
-•	Kaggle – for hosting the leaderboard and submission system
-•	Google Colab – for making development easy and accessible
+2. Open `notebook.ipynb` in Google Colab
+
+3. Upload `hacktrain.csv` and `hacktest.csv` from the competition
+
+4. Run all cells to generate `vaibhavisubmission.csv`
+
+---
+
+## 🤝 Acknowledgments
+
+- **Consulting & Analytics Club, IIT Guwahati** – for organizing the hackathon and providing real-world satellite data  
+- **GeeksforGeeks (GFG)** – for sponsoring and mentoring the competition  
+- **Kaggle** – for hosting the leaderboard and submission system  
+- **Google Colab** – for making development easy and accessible
+
+---
 
